@@ -1,13 +1,79 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/css.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/styles.css" />
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <!-- font awsome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font awsome cdn -->
     <title>Usability Hub</title>
   </head>
+
   <body>
-    <div id="app"></div>
+    <!-- Top bar -->
+    <div class="topbar">
+      <h3 class="topbar__heading">
+        🥳 New to Usability Hub: Open and Closed card sorting
+      </h3>
+    </div>
+    <!-- Top bar -->
+
+    <main id="app">
+      <!-- Navbar -->
+      <header class="navbar">
+        <div class="navbar__container">
+          <div class="navbar__logo" id="logo">
+            <img src="/asset1.png" alt="Usability Hub" width="200" />
+          </div>
+          <nav class="navbar__nav">
+            <ul class="navbar__list">
+              <li class="navbar__item">
+                <a href="#" class="navbar__link">Products</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link">Customer</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link">Pricing</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link">Resources</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link">
+                  <button class="btn btn--primary">Sign in</button>
+                </a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link">
+                  <button class="btn btn--secondary">Sign up</button>
+                </a>
+              </li>
+            </ul>
+            <span class="navbar__menu">
+              <i class="fa-solid fa-bars"></i>
+            </span>
+          </nav>
+        </div>
+      </header>
+      <!-- Navbar -->
+    </main>
+
+    <!-- JavaScript function to reload the page when the logo is clicked -->
+    <script>
+      const logo = document.getElementById("logo");
+      logo.addEventListener("click", () => {
+        window.location.reload();
+      });
+    </script>
+    <!-- JavaScript function to reload the page when the logo is clicked -->
   </body>
 </html>
