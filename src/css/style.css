@@ -7,6 +7,7 @@
 @import url("components/topbar.css");
 @import url("components/navbar.css");
 @import url("components/hero.css");
+@import url("components/features.css");
 /* other css components */
 
 :root {
@@ -14,6 +15,10 @@
   --secondary-color: #2294ed;
   --tertiary-color: #183b56;
   --light-text: #577592;
+}
+
+#document {
+  scroll-behavior: smooth;
 }
 
 * {
@@ -33,5 +38,8 @@ body {
 #app {
   max-width: 1180px;
   margin: 0 auto;
-  padding: 20px;
+}
+
+a {
+  text-decoration: none;
 }

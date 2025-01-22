@@ -1,3 +1,7 @@
+.hero {
+  padding: 0px 20px;
+}
+
 .hero__container {
   display: flex;
   align-items: center;
@@ -45,9 +49,8 @@
   flex-wrap: wrap;
 }
 
-
 /* Media Queries */
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .hero__container {
     flex-direction: column-reverse;
   }
@@ -65,8 +68,8 @@
   }
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width: 640px) {
   .hero__companies {
-    gap: 20px
+    gap: 20px;
   }
 }
