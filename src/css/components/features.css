@@ -1,9 +1,8 @@
 .features {
-  margin-top: 80px;
   background-image: url("/asset 32.svg");
   background-repeat: no-repeat;
   background-position: center;
-  padding: 0px 20px;
+  padding: 80px 20px 0px 20px;
   max-width: 1180px;
   margin: 0 auto;
 }
