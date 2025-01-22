@@ -10,6 +10,7 @@
 @import url("components/features.css");
 @import url("components/testimonial.css");
 @import url("components/example.css");
+@import url("components/testing.css");
 /* other css components */
 
 :root {
@@ -35,11 +36,6 @@ body {
   min-height: 100vh;
   max-width: 100vw;
   overflow-x: hidden;
-}
-
-#app {
-  max-width: 1180px;
-  margin: 0 auto;
 }
 
 a {

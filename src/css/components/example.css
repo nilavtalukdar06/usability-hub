@@ -1,5 +1,7 @@
 .example {
     padding: 80px 20px 80px 20px;
+    max-width: 1180px;
+  margin: 0 auto;
 }
 
 .example__container {

@@ -1,0 +1,39 @@
+.testing {
+    padding: 120px 20px 80px 20px;
+    background-color: var(--tertiary-color);
+}
+
+.testing__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.testing__heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.testing__text {
+    margin-top: 20px;
+    font-size: 1.25rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Media Queries */
+@media screen and (max-width:640px) {
+    .testing {
+        padding: 80px 20px 80px 20px;
+    }
+    .testing__heading {
+        font-size: 1.5rem;
+    }
+    .testing__text {
+        font-size: 1rem;
+    }
+}
